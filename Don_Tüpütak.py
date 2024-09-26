@@ -4,10 +4,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 def func(SEHIR="",ILCE="",BITKI="",SAFHA=""):
-    SEHIR.capitalize()
-    ILCE.capitalize()
-    BITKI.upper()
-    SAFHA.upper()
+    SEHIR=SEHIR.capitalize()
+    ILCE=ILCE.capitalize()
+    BITKI=BITKI.upper()
+    SAFHA=SAFHA.upper()
 
     # WebDriver kurulumu
     driver = webdriver.Chrome()
